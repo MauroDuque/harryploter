@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MauroDuque/harryploter/issues"
   },
-  "homepage": "https://github.com/MauroDuque/harryploter#readme"
+  "homepage": "https://github.com/MauroDuque/harryploter#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
