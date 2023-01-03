@@ -9,16 +9,14 @@
     
 </head>
 <body>
-    <div id="canvas_div" width="530" height="320">
-
-    </div>
+    <div id="canvas_div" style="width:100vw; height:600px"></div>
     <script type="module">
         import { HarryPloter } from './index.js';
         
         let hp = new HarryPloter({
             parent: document.getElementById('canvas_div')
         });
-        hp.init();
+        // hp.init();
     </script>
 </body>
 </html>
