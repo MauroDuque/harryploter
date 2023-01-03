@@ -16,7 +16,21 @@
         let hp = new HarryPloter({
             parent: document.getElementById('canvas_div')
         });
-        // hp.init();
+        
+        const intervalID = setInterval(myCallback, 500);
+
+        function myCallback(){
+
+            hp.update({
+                id: "7C:DF:A1:4D:D1:BE&0x69",
+                text: Math.floor(Math.random() * 100),
+            })
+
+            hp.update({
+                id: "7C:DF:A1:4D:D2:BE&0x69",
+                text: Math.floor(Math.random() * 100),
+            })
+        }
     </script>
 </body>
 </html>

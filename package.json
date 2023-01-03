@@ -1,6 +1,6 @@
 {
   "name": "harryploter",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "rendering canvas element",
   "main": "index.js",
   "types": "index.d.ts",
