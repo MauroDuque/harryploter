@@ -1,12 +1,13 @@
 {
   "name": "harryploter",
-  "version": "1.0.11",
+  "version": "2.0.10",
   "description": "rendering canvas element",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx -p typescript tsc ./*.js --declaration --allowJs --emitDeclarationOnly --outDir ./"
+    "start": "npx -p typescript tsc ./*.js --declaration --allowJs --emitDeclarationOnly --outDir ./",
+    "dev": "serve ./"
   },
   "repository": {
     "type": "git",

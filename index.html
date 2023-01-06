@@ -1,36 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <script type="text/javascript" src="./index.js"></script> -->
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <div id="canvas_div" style="width:100vw; height:600px"></div>
-    <script type="module">
-        import { HarryPloter } from './index.js';
-        
-        let hp = new HarryPloter({
-            parent: document.getElementById('canvas_div')
-        });
-        
-        const intervalID = setInterval(myCallback, 500);
-
-        function myCallback(){
-
-            hp.update({
-                id: "7C:DF:A1:4D:D1:BE&0x69",
-                text: Math.floor(Math.random() * 100),
-            })
-
-            hp.update({
-                id: "7C:DF:A1:4D:D2:BE&0x69",
-                text: Math.floor(Math.random() * 100),
-            })
-        }
-    </script>
+  <div id="canvas-enerinno" style="width:100vw; height:600px"></div>
+  <script type="module">
+    import './index.js';
+  </script>
 </body>
 </html>
